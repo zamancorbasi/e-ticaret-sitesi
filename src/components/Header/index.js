@@ -20,6 +20,12 @@ const Header = props => {
                         <Link to="/reg">
                         Register
                         </Link>
+                        
+                    </li>
+                    <li>
+                        <Link to="/log">
+                        Login
+                        </Link>
                     </li>
                 </ul>                   
             </div>

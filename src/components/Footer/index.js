@@ -6,8 +6,6 @@ const Footer = props => {
         <footer className='footer'>
             <div className='wrap'>
             (∩ᄑ_ᄑ)⊃━☆ﾟ*･｡*･:≡( ε:)
-
-
             </div>
 
         </footer>
