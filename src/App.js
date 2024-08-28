@@ -1,10 +1,22 @@
+import React from 'react';
+import './default.scss';
+import Header from './components/Header';
+import Homepage from './pages/Homepage'
+
+
 function App() {
   return (
-    <>
-    <h2>Hello Wold!</h2>
+    <div className='App'>
+  
+    <Header/>
+    
+    <div className='main'>
+    <Homepage/>
+    </div>
     
     
-    </>
+    
+    </div>
   );
 }
 
