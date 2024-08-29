@@ -5,9 +5,7 @@ const Login = props => {
     return(
         <div className="login">
             <div className="wrap">
-                <h2>Login</h2>
                 <SignIn/>
-
             </div>
         </div>
 

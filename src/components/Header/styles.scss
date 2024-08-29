@@ -32,6 +32,7 @@
         .callToActions {
             position: absolute;
             top: 50%; right: 10px;
+            cursor: pointer;
 
             -webkit-transform: translateY(-50%);
             -moz-transform: translateY(-50%);
