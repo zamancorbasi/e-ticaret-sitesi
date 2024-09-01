@@ -1,6 +1,6 @@
 import React from "react";
-import ShopMen from '../../assets/shopMens.jpg';
-import ShopWomen from '../../assets/shopWomens.jpg';
+import Coraline_endpaper_1 from '../../assets/kategori1.jpeg';
+import Coraline_endpaper_2 from '../../assets/kategori2.jpeg';
 import './styles.scss';
 
 const Directory = props => {
@@ -8,23 +8,23 @@ const Directory = props => {
         <div className="directory">
             <div className="wrap">
             <div
-                className="item"
+                className="item1"
                 style={{
-                    backgroundImage: `url(${ShopMen})`
+                    backgroundImage: `url(${Coraline_endpaper_1})`
                 }}
             >
             <a>
-                shopWomens   
+                sağ
             </a>
             </div>
             <div
-                className="item"                
+                className="item2"                
                 style={{
-                    backgroundImage: `url(${ShopWomen})`
+                    backgroundImage: `url(${Coraline_endpaper_2})`
                 }}
             >
             <a>
-                shopMens
+                sol
             </a>
             </div>
             </div>

@@ -14,6 +14,8 @@ GoogleProvider.setCustomParameters({ prompt: 'select_account' });
 export const signInWithGoogle = () => signInWithPopup(auth, GoogleProvider);
 
 export const handleUserProfile = async (userAuth, additionalData) => {
+  //databasede userın olup olmadığını kontrol ediyor 
+  //eğer yoksa bitiyo
   if (!userAuth) return;
   const { uid } = userAuth;
 

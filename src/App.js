@@ -48,9 +48,11 @@ function App() {
         <Route 
           exact path="/reg" 
           element={
-            <MainLayout currentUser={currentUser}>
-              <Registration />
-            </MainLayout>
+            currentUser ? <Navigate to="/"/> : (
+              <MainLayout currentUser={currentUser}>
+                <Registration />
+              </MainLayout>
+            )
           } 
         />
         <Route 

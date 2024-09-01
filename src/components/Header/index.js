@@ -33,13 +33,13 @@ const Header = props => {
                     <ul>
                     <li>
                         <Link to="/reg">
-                        Register
+                        REGISTER
                         </Link>
                         
                     </li>
                     <li>
                         <Link to="/log">
-                        Login
+                        LOGIN
                         </Link>
                     </li>
                     </ul>                   
