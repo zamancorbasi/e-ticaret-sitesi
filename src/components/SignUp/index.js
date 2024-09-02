@@ -56,7 +56,7 @@ const SignUp = () => {
     return (
         <div className='signUp'>
             <div className='wrap'>
-                <h1>Sign up page</h1>
+                <h1>SIGN UP</h1>
 
                 {state.errors.length > 0 && (
                     <ul>

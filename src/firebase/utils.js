@@ -23,13 +23,14 @@ export const handleUserProfile = async (userAuth, additionalData) => {
   const snapshot = await getDoc(userRef);
 
   if (!snapshot.exists()) {
-    const { displayName, email } = userAuth;
+    const { displayName, email, password } = userAuth;
     const timestamp = new Date();
 
     try {
       await setDoc(userRef, {
         displayName,
         email,
+        password,
         createdDate: timestamp,
         ...additionalData
       });
